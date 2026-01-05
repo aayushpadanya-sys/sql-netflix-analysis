@@ -23,7 +23,7 @@ This project analyzes Netflix movies and TV shows data using SQL to answer key b
 
 ## Dataset
 
-- **Dataset:** [Movies Dataset](Netflix_data)
+- **Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 ## Schema
 
