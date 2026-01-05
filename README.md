@@ -25,6 +25,18 @@ This project analyzes Netflix movies and TV shows data using SQL to answer key b
 
 - **Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
+## SQL Topics Covered 
+
+-- Aggregate Functions
+-- Filtering & Conditional Logic
+-- Grouping & Sorting
+-- Window Functions
+-- Common Table Expressions (CTEs)
+-- Subqueries
+-- Date & Time Handling
+-- Data Type Casting
+-- String Manipulation
+
 ## Schema
 
 ```sql
