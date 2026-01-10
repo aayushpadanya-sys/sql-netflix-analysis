@@ -3,16 +3,25 @@
 ![](logo.png)
 
 ## Overview
-This project analyzes Netflix movies and TV shows data using SQL to answer key business questions and extract actionable insights.
+This project analyzes Netflix movies and TV shows data using SQL to solve real business problems and extract actionable insights that support content strategy and decision-making.
 
-## Executive Summary
+## Business Problem
 
-• Movies dominate Netflix’s catalog, making up the majority of available content.
-• Most Netflix content has been released after 2015, indicating rapid platform expansion.
-• The United States and India are the leading content-producing countries.
-• TV-MA is the most common rating, indicating Netflix’s strong focus on mature audiences.
-• Drama and International genres are the most prevalent on the platform.
-• Most movies have a runtime between 90 and 120 minutes.
+- Streaming platforms like Netflix must continuously analyze their content library to make better decisions around content acquisition, production, and audience engagement.
+
+#### The key business challenge is:
+
+- How can we use content metadata (genre, release year, country, cast, ratings, and descriptions) to understand content trends, audience preferences, and platform growth opportunities?
+
+#### This project addresses that challenge by analyzing:
+- Content distribution (Movies vs TV Shows)
+- Viewer targeting through ratings and genres
+- Regional content performance (e.g., India vs other countries)
+- Actor and director influence on content volume
+- Content freshness and growth trends over time
+- Risk-sensitive content using keyword-based classification
+- Strategic insights for catalog optimization and recommendation decisions
+- The goal is to simulate how a real-world data analyst supports data-driven decision-making for a streaming business.
 
 ## Objectives
 
@@ -20,6 +29,26 @@ This project analyzes Netflix movies and TV shows data using SQL to answer key b
 - Identify the most common ratings for movies and TV shows.
 - List and analyze content based on release years, countries, and durations.
 - Explore and categorize content based on specific criteria and keywords.
+
+## Executive Summary
+
+- Movies dominate Netflix’s catalog, making up the majority of available content.
+- Most Netflix content has been released after 2015, indicating rapid platform expansion.
+- The United States and India are the leading content-producing countries.
+- TV-MA is the most common rating, indicating Netflix’s strong focus on mature audiences.
+- Drama and International genres are the most prevalent on the platform.
+- Most movies have a runtime between 90 and 120 minutes.
+
+## Business Recommendations
+
+### Based on the insights, the following actions are recommended:
+
+- Invest more in high-performing content formats such as Movies.
+- Strengthen content production and acquisition in the U.S. and India markets.
+- Prioritize Drama and International genres in future content strategy.
+- Continue targeting mature audiences through TV-MA rated content.
+- Maintain optimal movie duration (90–120 minutes) aligned with viewer preference.
+
 
 ## Dataset
 
@@ -273,7 +302,14 @@ FROM (
 GROUP BY category;
 ```
 
-**Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+## Project Impact
+
+### This project demonstrates the ability to:
+- Translate business questions into analytical queries  
+- Work with real-world datasets  
+- Apply advanced SQL concepts  
+- Communicate insights clearly  
+- Think from a business decision-making perspective  
 
 
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
