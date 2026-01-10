@@ -49,6 +49,18 @@ This project analyzes Netflix movies and TV shows data using SQL to solve real b
 - Continue targeting mature audiences through TV-MA rated content.
 - Maintain optimal movie duration (90–120 minutes) aligned with viewer preference.
 
+## Project Structure
+```
+├── assets/
+│   ├── logo.png
+├── data/
+│   └── Netflix_data.csv
+├── SQL file/
+│   └── business_queries.sql
+├── presentation/
+│   └── sales_analysis_slides.pptx
+├── README.md
+```
 
 ## Dataset
 
