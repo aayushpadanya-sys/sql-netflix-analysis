@@ -326,4 +326,10 @@ GROUP BY category;
 
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
+### Author
+**Ayush Padaniya**  
+
+📧 Email: aayush.padanya@gmail.com
+
+💼 LinkedIn: [https://linkedin.com/in/ayushpadaniya](https://www.linkedin.com/in/ayush-padaniya-26b212318/)
 
